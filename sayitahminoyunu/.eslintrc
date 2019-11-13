@@ -1,0 +1,28 @@
+{
+  "rules": {
+    "no-mixed-spaces-and-tabs": 0 // disable rule
+    //"no-console": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "parser": "babel-eslint",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "ecmaFeatures": {
+    "modules": true,
+    "spread": true,
+    "restParams": true
+  },
+  "extends": ["plugin:vue/recommended"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "plugins": ["@vue"]
+}
